@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\app",
+    "\\app\\js",
+    "\\app\\vendor",
+    "\\app\\Views",
+    "\\app\\Views\\clinical-data",
+    "\\app\\Views\\patients",
+    "\\app\\Views\\table"
+  ],
+  "SelectedNode": "\\app\\Views\\patients\\patients.js",
+  "PreviewInSolutionExplorer": false
+}

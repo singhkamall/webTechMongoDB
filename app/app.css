@@ -1,0 +1,47 @@
+/* app css stylesheet */
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li + li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+
+/* Clinical Data Table Style */
+.table-striped thead tr:not(.filter) th, .table-striped tfoot tr th  {
+  background-color: #343A40;
+  color: #fff;
+}
+
+.actions a {
+  color: black;
+}
+
+<<<<<<< HEAD
+.filter input{
+    width: 100%;
+}
+=======
+
+.table-striped tbody tr td {
+  vertical-align: middle;
+}
+>>>>>>> 181927cb7460a8ea59b3df4e4b30600784bba06e
